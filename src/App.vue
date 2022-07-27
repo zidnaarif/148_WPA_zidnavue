@@ -2,4 +2,3 @@
   <router-view/>
 </template>
 
-

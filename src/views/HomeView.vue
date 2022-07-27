@@ -91,6 +91,8 @@
     </div>
   </section>
 
+  <ReviewVue/>
+
   <ContactVue/>
   <FooterVue/>
 </template>
@@ -104,6 +106,7 @@ import SearchVue from '../components/SearchVue.vue'
 import FooterVue from '../components/FooterVue.vue'
 import ContactVue from '../components/ContactVue.vue'
 import CardDesign from '../components/CardDesign.vue'
+import ReviewVue from '../components/ReviewVue.vue'
 
 export default {
   name: 'HomeView',
@@ -119,7 +122,8 @@ export default {
     SearchVue,
     FooterVue,
     ContactVue,
-    CardDesign
+    CardDesign,
+    ReviewVue
 }
 }
 </script>
