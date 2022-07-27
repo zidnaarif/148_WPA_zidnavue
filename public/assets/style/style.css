@@ -1,0 +1,671 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3fff4;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  z-index: 99;
+}
+
+.nav-color {
+  background-color: #9ab58a;
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+  transition: all ease-in-out 0.3s;
+}
+
+.navbar-nav {
+  font-size: 16px;
+  font-weight: 500;
+  color: #59724b;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  color: #304025;
+}
+
+.nav-link {
+  font-size: 16px;  
+  color: #59724b;
+}
+
+.nav-link.active {
+  color: #304025;
+  font-weight: 500;
+}
+
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: #304025;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  color: white;
+  background-color: #59724b;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* hero */
+#hero {
+  background: url(../img/hero-img-bg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-tagline h1 {
+  color: #304025;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.hero-tagline p {
+  color: #304025;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  line-height: 26px;
+  width: 85%;
+}
+
+.button-lg-primary {
+  color: #304025;
+  background-color: white;
+  width: 200px;
+  height: 60px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Service Card */
+#service {
+  padding: 100px 0;
+  background-color: #cbdbd1;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #304025;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #304025;
+}
+
+.services-card {
+  margin: auto;
+  width: 90%;
+  height: auto;
+  border-radius: 24px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.005);
+}
+
+.price-card {
+  margin: auto;
+  width: 90%;
+  height: auto;
+  border-radius: 24px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.005);
+}
+
+.circle-icon {
+  width: 94px;
+  height: 94px;
+  background-color: #a6c6b2;
+  border-radius: 50%;
+}
+
+.circle-icon img {
+  height: 50%;
+  margin: auto;
+}
+
+.services-card h3 {
+  color: #304025;
+  font-size: 24px;
+}
+
+.services-card p {
+  color: #304025;
+  font-size: 15px;
+}
+
+.services-card:hover {
+  border-style: solid;
+  border-color: #59724b;
+  border-width: 2px;
+  transition: 200ms;
+}
+
+/* search */
+#search {
+  background-image: url(../img/search-bg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin: 40px 0px 0px 0px;
+}
+
+#search p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+#search .form-control {
+  margin: 0px 10px 40px 10px;
+}
+
+.button-search {
+  margin: 0px 0px 40px 10px;
+  width: 133px;
+  height: 40px;
+  color: white;
+  background-color: #738a65;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#search .row {
+  border-radius: 18px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* card design */
+#design img {
+  max-width: 400px;
+}
+
+#ourdesign {
+  background-color: #cbdbd1;
+  padding: 40px 0 75px 0;
+}
+
+#ourdesign h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: 0em;
+}
+
+#ourdesign h4 {
+  font-size: 22px;
+  color: #304025;
+}
+
+#ourdesign span {
+  color: #304025;
+}
+
+.card-design img {
+  max-width: 300px;
+}
+
+.card-design h5 {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card-design span {
+  color: white;
+}
+
+.card-design .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.card-design .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: all ease-in-out .3s;
+}
+
+.card-design2 img {
+  max-width: 600px;
+}
+
+.card-design2 h5 {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card-design2 span {
+  color: white;
+}
+
+.card-design2 .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.card-design2 .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: all ease-in-out .3s;
+}
+
+.btn-left {
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  color: white;
+  background-color: #59724b;
+  padding: 0;
+}
+
+.btn-right {
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  color: white;
+  background-color: #59724b;
+  padding: 0;
+}
+
+/* contact */
+#contactpage {
+  padding: 100px 0;
+  background-color: #cbdbd1;
+}
+
+#contactpage .form-control {
+  background: #ffffff;
+  padding: 50px;
+}
+
+
+#contact {
+  background-image: url(../img/armchair-green.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#contact .overlay { 
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#contact h3 {
+  color: white;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.kontak h6 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin: 18px 0 14px 0;
+}
+
+.kontak img {
+  max-height: 22px;
+  filter: invert(100%);
+}
+
+.sosmed img {
+  max-height: 36px;
+  filter: invert(100%);
+}
+
+.kontak a {
+  color: white;
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 18px;
+  text-decoration: none;
+}
+
+.kontak .mbb {
+  margin-bottom: 10px;
+}
+
+.card-contact {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.form-control {
+  background: #d5d5d5;
+}
+
+.form-floating label {
+  color: #a0a0a0;
+}
+
+.btn-submit {
+  width: 133px;
+  height: 40px;
+  color: white;
+  background-color: #59724b;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background: #000000;
+}
+
+footer img {
+  max-width: 48px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.copyright {
+  bottom: 2%;
+  color: white;
+}
+
+.copyright p {
+  font-size: 12px;
+}
+
+
+.kontak2 h6 {
+  color: #304025;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin: 18px 0 14px 0;
+}
+
+.kontak2 img {
+  max-height: 22px;
+}
+
+.sosmed2 img {
+  max-height: 36px;
+}
+
+.kontak2 a {
+  color: #304025;
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 18px;
+  text-decoration: none;
+}
+
+.kontak2 .mbb {
+  margin-bottom: 10px;
+}
+
+#pricing {
+  padding: 100px 0;
+  background-color: #cbdbd1;
+}
+
+#LoginModal .form-control {
+  background: #ffffff;
+}
+
+#LoginModal a:hover {
+  color: #59724b;
+}
+
+/* Register */
+#register {
+  padding: 100px 0;
+  background-image: url(../img/search-bg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#register .title {
+  color: white;
+}
+
+.FormRegister {
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.FormRegister .form-control {
+  background: #ffffff;
+}
+
+.note {
+  font-size: small;
+}
+
+.note a {
+  color: #59724b;
+}
+.note a:hover {
+  color: #59724b;
+}
+
+/* about us */
+#about {
+  padding: 100px 0;
+  background-color: #cbdbd1;
+  color: #304025;
+}
+
+.about {
+  width: 50%;
+}
+
+#about h3 {
+  font-size: 34px;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+}
+
+.about span {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px 0 20px 0;
+}
+
+.aboutcard {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  font-size: 18px;
+}
+
+.imgcard img {
+  max-width: 460px;
+}
+
+.profileimg {
+  margin: 18px;
+}
+.profileimg img {
+  max-width: 150px;
+  border: 5px solid #738a65;
+  border-radius: 50%;
+}
+
+.team span {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px 0 20px 0;
+}
+
+.teamcard span {
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* slider review */
+#review {
+  background-image: url(../img/review-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+#review .overlay { 
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.our-review {
+  padding: 30px;
+}
+
+.our-review h2 {
+  color: #f1f1f4;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 78px;
+}
+
+.our-review span {
+  color: #f1f1f4;
+  font-size: 18px;
+  font-weight: 400;
+}
+.sliderWrap{
+  flex: .6;
+  margin-top: 10%;
+}
+.slider{
+  position: relative;
+  margin-left: 50px;
+} 
+
+.slider_item {
+  width: 530px;
+  padding: 20px 0 25px 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  opacity: 0;
+  z-index: 0;
+  box-shadow: 0 4px 9px #f1f1f4;
+  left: 0;
+  top: 0;
+}
+
+.slider_item .card_image{
+  max-width: 60px;
+  max-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 9px rgba(241, 241, 244, 0.72);
+  background-color: #ffffff;
+}
+
+.slider_item .card_image img{
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.slider_item .card_content{
+  width: 100%;
+  max-width: 374px;
+  margin-left: 26px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.slider_item .card_content .card_title{
+  color: #4a4545;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.18px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.slider_item .card_content .card_description{
+  color: #696d74;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 24px;
+  margin: 10px 0 0 0;
+} 
+
+.slider_item .card_content .card_city{
+  font-size: 11px;
+  margin: 10px 0 0 0;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #696d74;
+}
+
+.imageCard{
+  flex: .4;
+}
+
+.imageCard img{
+  width: 80%;
+  object-fit: contain;
+}

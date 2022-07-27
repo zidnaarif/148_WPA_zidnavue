@@ -1,0 +1,592 @@
+/* responsive */
+@media screen and (max-width: 1000px) {
+    #hero {
+        height: 80vh;
+      }
+
+    #service {
+        height: 100vh;
+      }
+
+      .subtitle {
+        font-size: 18px;
+      }
+
+      .services-card {
+        width: 100%;
+        margin: auto;
+        height: 300px;
+        border-radius: 14px;
+        padding: 20px;
+      }
+      
+      .circle-icon {
+        width: 72px;
+        height: 72px;
+      }
+      
+      .services-card h3 {
+        font-size: 18px;
+      }
+      
+      .services-card p {
+        font-size: 13px;
+      }
+
+    #search {
+        height: 75vh;
+      }
+      
+      .button-search {
+        width: 120px;
+        height: 40px;
+      }
+
+    #contact {
+        height: 75vh;
+      }
+      
+      #contact h3 {
+        font-size: 30px;
+        line-height: 36px;
+      }
+      
+      .kontak h6 {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      
+      .kontak img {
+        max-height: 16px;
+      }
+      
+      .sosmed img {
+        max-height: 28px;
+      }
+      
+      .kontak a {
+        font-size: 12px;
+        line-height: 14px;
+        margin-left: 12px;
+      }
+
+      .kontak .mbb {
+        margin-bottom: 0px;
+      }
+      
+      .card-contact {
+        padding: 24px;
+      }
+      
+      .card-contact .form-control {
+        height: 46px;
+        font-size: 12px;
+      }
+      
+      .form-floating label {
+        font-size: 12px;
+      }
+      
+      .btn-submit {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+      }
+
+    footer {
+        height: 160px;
+      }
+      
+      footer a {
+        font-size: 16px;
+      }
+      
+      .copyright {
+        bottom: 0%;
+      }
+      
+      .copyright p {
+        font-size: 11px;
+      }
+
+      #about h3 {
+        font-size: 30px;
+        line-height: 36px;
+      }
+
+      #about span {
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      .aboutcard {
+        width: auto;
+        text-align: center;
+      }
+
+      .imgcard img {
+        width: 85%;
+        padding-bottom: 18px;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .button-primary {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+      }
+      
+      .button-secondary {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+      }
+
+    #hero {
+        height: 60vh;
+      }
+
+      .hero-tagline h1 {
+        font-size: 36px;
+      }  
+
+      .hero-tagline p {
+        font-size: 14px;
+        line-height: 22px;
+      }
+
+      .button-lg-primary {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+      }
+
+      .price-card {
+        width: 100%;
+        margin: auto;
+        height: auto;
+        border-radius: 14px;
+        padding: 20px;
+      }
+
+    #service {
+        padding: 50px 0;
+        height: 75vh;
+      }
+      
+      h2 {
+        font-size: 36px;
+      }
+
+      .subtitle {
+        font-size: 14px;
+      }
+
+      .services-card {
+        width: 100%;
+        margin: auto;
+        height: 280px;
+        border-radius: 14px;
+        padding: 20px;
+      }
+      
+      .circle-icon {
+        width: 64px;
+        height: 64px;
+      }
+      
+      .services-card h3 {
+        font-size: 16px;
+      }
+      
+      .services-card p {
+        font-size: 12px;
+      }
+
+    #search {
+        height: 75vh;
+      }
+      
+      #search h2 {
+        font-size: 36px;
+        line-height: 64px;
+        margin: 20px 0px 0px 0px;
+      }
+      
+      #search p {
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 30px;
+      }
+      
+      .button-search {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+      }
+
+      .input-group .form-control {
+        font-size: 14px;
+      }
+
+    #ourdesign {
+        padding: 40px 0 75px 0;
+      }
+
+      #ourdesign .subtittle {
+        width: 80%;
+      }
+      
+      #ourdesign h2 {
+        font-size: 36px;
+        line-height: 64px;
+      }
+      
+      .card-design img {
+        max-width: 250px;
+      }
+      
+      .card-design h5 {
+        font-size: 18px;
+      }
+      
+      .card-design span {
+        font-size: 14px;
+      }
+
+    #contact {
+        height: 75vh;
+      }
+      
+      #contact h3 {
+        font-size: 30px;
+        line-height: 36px;
+      }
+      
+      .kontak h6 {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      
+      .kontak img {
+        max-height: 16px;
+      }
+      
+      .sosmed img {
+        max-height: 28px;
+      }
+      
+      .kontak a {
+        font-size: 12px;
+        line-height: 14px;
+        margin-left: 12px;
+      }
+
+      .kontak .mbb {
+        margin-bottom: 0px;
+      }
+      
+      .card-contact {
+        padding: 24px;
+      }
+      
+      .card-contact .form-control {
+        height: 46px;
+        font-size: 12px;
+      }
+      
+      .form-floating label {
+        font-size: 12px;
+      }
+      
+      .btn-submit {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+      }
+
+    footer {
+        height: 140px;
+      }
+      
+      footer img {
+        max-width: 40px;
+      }
+      
+      footer a {
+        font-size: 14px;
+      }
+      
+      .copyright {
+        bottom: 0%;
+      }
+      
+      .copyright p {
+        font-size: 10px;
+      }
+
+      .aboutcard {
+        width: 80%;
+        text-align: center;
+      }
+
+      .imgcard img {
+        padding-bottom: 18px;
+      }
+
+      .our-review {
+        display: none;
+      }
+
+      #review {
+        height: 75vh;
+      }
+}
+
+@media screen and (max-width: 600px) {
+    .button-primary {
+        width: 100px;
+        height: 36px;
+        font-size: 12px;
+      }
+      
+      .button-secondary {
+        width: 100px;
+        height: 36px;
+        font-size: 12px;
+      }
+
+    #hero {
+        height: 100vh;
+      }
+
+      .hero-tagline h1 {
+        font-size: 32px;
+      }  
+
+      .hero-tagline p {
+        font-size: 12px;
+        line-height: 20px;
+      }
+
+      .button-lg-primary {
+        width: 120px;
+        height: 36px;
+        font-size: 12px;
+      }
+
+      .price-card {
+        width: 80%;
+        margin-bottom: 20px;
+        height: auto;
+        border-radius: 14px;
+        padding: 20px;
+      }
+
+    #service {
+        padding: 50px 0;
+        height: auto;
+      }
+      
+      h2 {
+        font-size: 30px;
+      }
+
+      .subtitle {
+        font-size: 14px;
+      }
+
+      .services-card {
+        width: 90%;
+        margin-bottom: 20px;
+        height: auto;
+        border-radius: 14px;
+        padding: 20px;
+      }
+      
+      .circle-icon {
+        width: 72px;
+        height: 72px;
+      }
+      
+      .services-card h3 {
+        font-size: 16px;
+      }
+      
+      .services-card p {
+        font-size: 12px;
+      }
+
+    #search {
+        height: 100vh;
+      }
+      
+      #search h2 {
+        font-size: 30px;
+        margin: 20px 0px 0px 0px;
+      }
+      
+      #search p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 30px;
+      }
+      
+      .button-search {
+        width: 120px;
+        height: 32px;
+        margin: 0;
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+
+      .input-group .form-control {
+        font-size: 14px;
+        width: auto;
+      }
+
+    #ourdesign {
+        padding: 40px 0 75px 0;
+      }
+      
+      #ourdesign h2 {
+        font-size: 36px;
+        line-height: 64px;
+      }
+      
+      .card-design img {
+        max-width: 250px;
+      }
+      
+      .card-design h5 {
+        font-size: 18px;
+      }
+      
+      .card-design span {
+        font-size: 14px;
+      }
+
+    #contact {
+        height: auto;
+      }
+      
+      #contact h3 {
+        margin-top: 20px;
+        font-size: 28px;
+      }
+      
+      .kontak h6 {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 20px;
+      }
+      
+      .kontak img {
+        max-height: 16px;
+      }
+      
+      .sosmed img {
+        max-height: 28px;
+      }
+      
+      .kontak a {
+        font-size: 12px;
+        line-height: 14px;
+        margin-left: 12px;
+      }
+
+      .kontak .mbb {
+        margin-bottom: 0px;
+      }
+      
+      .card-contact {
+        height: auto;
+        margin: 20px 0 30px 0;
+        padding: 24px;
+      }
+      
+      .card-contact .form-control {
+        height: 46px;
+        font-size: 12px;
+      }
+      
+      .form-floating label {
+        font-size: 12px;
+      }
+      
+      .btn-submit {
+        width: 120px;
+        height: 36px;
+        font-size: 14px;
+      }
+
+    footer {
+        height: 140px;
+      }
+      
+      footer img {
+        max-width: 40px;
+      }
+      
+      footer .link {
+        visibility: hidden;
+      }
+      
+      .copyright {
+        bottom: 0%;
+      }
+      
+      .copyright p {
+        font-size: 10px;
+        text-align: center;
+      }
+
+      #about h3 {
+        font-size: 28px;
+        line-height: 30px;
+      }
+
+      #about span {
+        font-size: 14px;
+        line-height: 16px;
+      }
+
+      .about {
+        width: auto;
+      }
+
+      .aboutcard {
+        width: 80%;
+        text-align: center;
+      }
+
+      .imgcard img {
+        width: 100%;
+        padding-bottom: 18px;
+      }
+
+      .FormRegister {
+        height: auto;
+      }
+
+      .our-review {
+        display: none;
+      }
+
+      .slider{
+        margin-left: 6px;
+      } 
+
+      .slider_item {
+        width: 270px;
+        padding: 10px 0 15px 15px;
+      }
+
+      #review {
+        height: 100vh;
+      }
+}
