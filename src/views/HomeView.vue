@@ -13,16 +13,16 @@
 
         <div class="row mt-5">
           <div class="col-md-3 text-center">
-            <ServiceVue title="Projects" :image="'assets/img/icons8-ratings-96.png'"/>
+            <ServiceVue title="Projects" :image="'/assets/img/icons8-ratings-96.png'"/>
           </div>
           <div class="col-md-3 text-center">
-            <ServiceVue title="Great Design" :image="'assets/img/icons8-armchair-96.png'"/>
+            <ServiceVue title="Great Design" :image="'/assets/img/icons8-armchair-96.png'"/>
           </div>
           <div class="col-md-3 text-center">
-            <ServiceVue title="Home Decor" :image="'assets/img/icons8-curtains-96.png'"/>
+            <ServiceVue title="Home Decor" :image="'/assets/img/icons8-curtains-96.png'"/>
           </div>
           <div class="col-md-3 text-center">
-            <ServiceVue title="About us" :image="'assets/img/icons8-trust-96.png'"/>
+            <ServiceVue title="About us" :image="'/assets/img/icons8-trust-96.png'"/>
           </div>
         </div>
     </div>
@@ -109,6 +109,6 @@ export default {
     ContactVue,
     CardDesign,
     ReviewVue
-}
+  }
 }
 </script>
