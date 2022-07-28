@@ -222,6 +222,10 @@ h2 {
   padding: 40px 0 75px 0;
 }
 
+#ourdesign .subtittle {
+  width: 80%;
+}
+
 #ourdesign h2 {
   font-size: 48px;
   font-weight: 500;

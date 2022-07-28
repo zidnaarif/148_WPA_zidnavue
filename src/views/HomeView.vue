@@ -31,7 +31,30 @@
   <SearchVue/>
 
   <section id="ourdesign">
-    <CardDesign/>
+    <div class="container-fluid mb-5">
+      <div class="container position-relative">
+          <div class="position-absolute top-50 start-0">
+            <h2>Our Design</h2>
+          </div>
+          <div class="position-absolute top-50 end-0 mt-3">
+            <button class="button-secondary rounded-pill">More ></button>
+          </div>
+      </div>
+    </div>
+
+    <div class="row container-fluid">
+        <div class="container mt-5 subtittle text-center mx-auto">
+          <span>We design & deliver beautiful hotels, luxury homes and innovative workplace interiors. 
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</span>
+        </div>
+    </div>
+
+    <div class="container mt-2 mb-2">
+      <div class="ms-5 me-5">
+        <CardDesign/>
+      </div>
+    </div>
+  
   </section>
 
   <ReviewVue/>

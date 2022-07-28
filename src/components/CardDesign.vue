@@ -5,44 +5,22 @@
     :centeredSlides="true"
     :slidesPerView="'auto'"
     :coverflowEffect="{
-      rotate: 50,
+      rotate: 0,
       stretch: 0,
       depth: 100,
-      modifier: 1,
+      modifier: 2,
       slideShadows: true,
     }"
     :pagination="true"
     :modules="modules"
     class="mySwiper"
   >
-    <swiper-slide>
-        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-                <h2>test</h2>
+    <swiper-slide v-for="(foto, $index) in img" :key="$index">
+        <img :src="'/assets/img/'+foto.source" />
+        <h3>{{foto.name}}</h3>
+        <p>{{foto.desc}}</p>
     </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-2.jpg" /> 
-      </swiper-slide>
-      <swiper-slide
-      ><img
-        src="https://swiperjs.com/demos/images/nature-3.jpg" /></swiper-slide
-    ><swiper-slide
-      ><img
-        src="https://swiperjs.com/demos/images/nature-4.jpg" /></swiper-slide
-    ><swiper-slide
-      ><img
-        src="https://swiperjs.com/demos/images/nature-5.jpg" /></swiper-slide
-    ><swiper-slide
-      ><img
-        src="https://swiperjs.com/demos/images/nature-6.jpg" /></swiper-slide
-    ><swiper-slide
-      ><img
-        src="https://swiperjs.com/demos/images/nature-7.jpg" /></swiper-slide
-    ><swiper-slide
-      ><img
-        src="https://swiperjs.com/demos/images/nature-8.jpg" /></swiper-slide
-    ><swiper-slide
-      ><img src="https://swiperjs.com/demos/images/nature-9.jpg"
-    /></swiper-slide>
+
   </swiper>
 </template>
 
@@ -60,6 +38,18 @@ import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper";
 
 export default {
+  data() {
+    return {
+      img: []
+    }
+  },
+  mounted() {
+    fetch("/assets/dataimg.json")
+    .then(res => res.json())
+    .then(res => {
+      this.img = res
+    })
+  },
   components: {
     Swiper,
     SwiperSlide,
@@ -72,23 +62,39 @@ export default {
 };
 </script>
 
-<!-- Demo styles -->
-    <style>
-        .swiper {
-        width: 100%;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        }
+<style>
+    .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
 
-        .swiper-slide {
-        background-position: center;
-        background-size: cover;
-        width: 300px;
-        height: 300px;
-        }
+    .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 66px;
+    }
 
-        .swiper-slide img {
-        display: block;
-        max-width: 100%;
-        }
-    </style>
+    .swiper-slide h3 {
+      font-size: 24px;
+      color: #304025;
+      margin: 18px 0 0 0;
+      text-align: center;
+    }
+
+    .swiper-slide p {
+      font-size: 16px;
+      font-style: italic;
+      color: #304025;
+      margin-bottom: 18px;
+      text-align: center;
+    }
+
+    .swiper-slide img {
+    border-radius: 5px;
+    display: block;
+    max-width: 100%;
+    }
+</style>

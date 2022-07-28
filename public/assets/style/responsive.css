@@ -42,6 +42,10 @@
         height: 40px;
       }
 
+      #ourdesign .subtittle {
+        width: 80%;
+      }
+
     #contact {
         height: 75vh;
       }
