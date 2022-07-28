@@ -573,10 +573,6 @@ footer a:hover {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.our-review {
-  padding: 30px;
-}
-
 .our-review h2 {
   color: #f1f1f4;
   font-size: 48px;
@@ -672,4 +668,8 @@ footer a:hover {
 .imageCard img{
   width: 80%;
   object-fit: contain;
+}
+
+.mobile-view {
+  display: none;
 }

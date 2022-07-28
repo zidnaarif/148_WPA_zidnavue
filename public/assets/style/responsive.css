@@ -340,7 +340,15 @@
       }
 
       .our-review {
-        display: none;
+        padding-left: 60px;
+      }
+
+      .our-review  h2 {
+        font-size: 36px;
+      }
+
+      .our-review span {
+        font-size: 16px;
       }
 
       #review {
@@ -592,5 +600,20 @@
 
       #review {
         height: 100vh;
+      }
+      
+      .mobile-view {
+        display: block;
+        padding-top: 50px;
+        color: white;
+      }
+      .mobile-view h2 {
+        color: white;
+        font-size: 34px;
+      }
+      .mobile-view span {
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
       }
 }

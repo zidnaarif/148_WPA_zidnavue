@@ -54,10 +54,29 @@
         <CardDesign/>
       </div>
     </div>
-  
   </section>
 
-  <ReviewVue/>
+  <section id="review">
+    <div class="container-fluid overlay h-100 position-relative">
+      <div class="container">
+        <div class="row mobile-view text-center">
+          <h2>What they says?</h2>
+          <span>Effective design is finding that perfect balance between the way something looks and how it functions.</span>
+        </div>
+        <div class="row">
+          <div class="col-md-6 slide-review position-absolute top-50 start-0 translate-middle-y mx-auto w-50">
+            <ReviewVue/>
+          </div>
+
+          <div class="col-md-6 our-review position-absolute top-50 end-0 translate-middle-y w-50 ms-3 me-5">
+            <h2>What they says?</h2>
+            <span>Effective design is finding that perfect balance between the way something looks and how it functions.</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
 
   <ContactVue/>
   <FooterVue/>
@@ -71,8 +90,8 @@ import ServiceVue from '../components/ServiceVue.vue'
 import SearchVue from '../components/SearchVue.vue'
 import FooterVue from '../components/FooterVue.vue'
 import ContactVue from '../components/ContactVue.vue'
+import CardDesign from '../components/CardDesign.vue'
 import ReviewVue from '../components/ReviewVue.vue'
-import CardDesign from '@/components/CardDesign.vue'
 
 export default {
   name: 'HomeView',

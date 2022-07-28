@@ -1,0 +1,62 @@
+[
+    {
+        "name" : "Henry Iman",
+        "pics" : "pm-3.jpg",
+        "town" : "Lisbon, Portugal",
+        "review" : "I was impressed with how beautiful and clean this property was. The owner definitely goes the extra mile to help their guests!"
+    },
+    {
+        "name" : "Valerie Luna",
+        "pics" : "pf-1.jpg",
+        "town" : "Sacramento, USA",
+        "review" : "Amazing location, convenient parking, and a lots of amenities and extras. I will definitely be returning here whenever I'm in town."
+    },
+    {
+        "name" : "Amy Love",
+        "pics" : "pf-2.jpg",
+        "town" : "US Northeast",
+        "review" : "Milestones theory of change, an effective paradigm, exposes the truth and best practices to uplift equal opportunity."
+    },
+    {
+        "name" : "David Walker",
+        "pics" : "pm-4.jpg",
+        "town" : "San Francisco, CA",
+        "review" : "Global changemakers, a state of play releives stress and creates inspirational work environments."
+    },
+    {
+        "name" : "Anne Marie",
+        "pics" : "pf-5.jpg",
+        "town" : "Doha, Qatar",
+        "review" : "Commit to inspiring social capital, social capital inspires the body and the mind. Where my son loves to sit and watch TV"
+    },
+    {
+        "name" : "Erica Liu",
+        "pics" : "pf-7.jpg",
+        "town" : "San Francisco, CA",
+        "review" : "The sofa is easy to assemble and only takes 10 minutes. The color matches my carpet. I don't like sofas that are too soft. This one feels just right. The size is perfect for my small living room on the second floor."
+    },
+    {
+        "name" : "Aleah Burris",
+        "pics" : "pf-8.jpg",
+        "town" : "Lisbon, Portugal",
+        "review" : "The assembly was fast and simple, and the color matches what the photos look like. The construction was very solid, no squeaking or cracking noise so far. I really love how the texture feels, and it matches my living room perfectly."
+    },
+    {
+        "name" : "Tim Horton",
+        "pics" : "pm-5.jpg",
+        "town" : "US Northeast",
+        "review" : "I live in a apartment and there's not much space for large sizes. This sofa is the ideal size! I can assemble it by myself without any issue. The quality is good for the price. It should able to last for a few years in my opinion."
+    },
+    {
+        "name" : "Justin Johnson",
+        "pics" : "pm-6.jpg",
+        "town" : "United States",
+        "review" : "Very beautiful couch and worth the price. The installation was very easy. I like it to be not high, more suitable for short people like me. And the bottom is also high so the auto vacuum can go under it. I love the color, it matches the style of my room."
+    },
+    {
+        "name" : "Rose Galindo",
+        "pics" : "pf-6.jpg",
+        "town" : "Sacramento, CA",
+        "review" : "I like this sofa very much, the price is good, the quality is nice, it can be used as a coffee table or pedal. I put it in the garage and the size of the sofa I bought before is exactly the same. Surprising"
+    }
+]
