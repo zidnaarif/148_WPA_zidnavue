@@ -528,6 +528,13 @@ footer a:hover {
   margin: 20px 0 20px 0;
 }
 
+.about p {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  margin: 20px 0 20px 0;
+}
+
 .aboutcard {
   width: 100%;
   background-color: white;

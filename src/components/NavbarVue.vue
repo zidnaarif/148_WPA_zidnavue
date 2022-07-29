@@ -20,7 +20,7 @@
             <router-link to="/contact" class="nav-link">Contact</router-link>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="/about.html">About</a>
+            <router-link to="/about" class="nav-link">About</router-link>
           </li>
         </ul>
 

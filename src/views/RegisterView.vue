@@ -55,6 +55,9 @@ import FooterVue from '@/components/FooterVue.vue'
 export default {
     setup() {
     },
+    mounted() {
+        document.title = "Register";
+    },
     components: { 
         NavbarVue,
         FooterVue

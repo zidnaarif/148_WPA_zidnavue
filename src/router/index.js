@@ -3,11 +3,12 @@ import HomeView from '../views/HomeView.vue'
 import RegisterView from '../views/RegisterView.vue'
 import PricingView from '../views/PricingView.vue'
 import ContactView from '../views/ContactView.vue'
+import AboutView from '../views/AboutView.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Dekoruma',
+    name: 'Home',
     component: HomeView
   },
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: ContactView
+  },
+  {
+    path: '/about',
+    name: 'About',
+    component: AboutView
   }
 ]
 

@@ -14,10 +14,13 @@ import FooterVue from '@/components/FooterVue.vue'
 export default {
     setup() {
     },
+    mounted() {
+        document.title = "Contact";
+    },
     components: {
     NavbarVue,
     ContactVue,
     FooterVue
-}
+    }
 }
 </script>

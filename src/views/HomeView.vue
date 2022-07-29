@@ -100,6 +100,9 @@ export default {
       web_name : "Dekoruma"
     }
   },
+  mounted() {
+    document.title = "Dekoruma";
+  },
   components: {
     NavbarVue,
     HeroVue,

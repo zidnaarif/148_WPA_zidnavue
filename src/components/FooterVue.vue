@@ -8,10 +8,10 @@
                 <a href="#" class="ms-2"><h5>Dekoruma</h5></a>
             </div>
             <div class="link col-md-5 d-flex justify-content-evenly">
-                <a href="/">Home</a>
-                <a href="/pricing.html">Pricing</a>
-                <a href="/contact.html">Contact</a>
-                <a href="/about.html">About</a>
+                <router-link to="/">Home</router-link>
+                <router-link to="/pricing">Pricing</router-link>
+                <router-link to="/contact">Contact</router-link>
+                <router-link to="/about">About</router-link>
             </div>
             </div>
             <div class="row position-absolute copyright start-50 translate-middle">

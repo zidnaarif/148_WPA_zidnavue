@@ -44,10 +44,13 @@ import CardPrice from '@/components/CardPrice.vue'
 export default {
     setup() {
     },
+    mounted() {
+      document.title = "Pricing Plan";
+    },
     components: {
     NavbarVue,
     FooterVue,
     CardPrice
-}
+  }
 }
 </script>
