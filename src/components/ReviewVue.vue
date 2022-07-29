@@ -13,14 +13,14 @@
           <img src="/assets/img/quote.png" alt="">
         </div>
         <div class="content">
-          <p>{{data.review}}</p>
+          <p>{{data.message}}</p>
           <div class="detail">
             <div class="imgbox">
-              <img :src="'/assets/img/'+data.pics" alt="">
+              <img :src="`${data.avatar}`" alt="">
             </div>
             <div class="profile">
               <h4>{{data.name}}</h4>
-              <span>{{data.town}}</span>
+              <span>{{data.location}}</span>
             </div>
           </div>
         </div>
@@ -55,10 +55,10 @@ export default {
     }
   },
   mounted() {
-    fetch("/assets/datareview.json")
+    fetch("https://testimonialapi.toolcarton.com/api")
     .then (res => res.json())
     .then (res => {
-      this.review = res
+      this.review = res.sort((a,b) => a.rating - b.rating)
     })
   },
   setup() {
