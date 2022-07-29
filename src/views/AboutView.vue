@@ -59,7 +59,7 @@
       <div class="container-fluid about mt-5 text-center">
         <div class="row mt-5">
           <div class="col-12 mt-5">
-            <p>This website create by Muh. Zidna Arif A. as a mini-project for completing
+            <p>This website created by Muh. Zidna Arif A. as a mini-project for completing
             Web Programming online course by Work in Tech INCO Academy & Alterra Academy using Vue JS Framework and Bootstrap 5.2.
             </p> 
             <div class="mt-5 mb-2">
