@@ -37,7 +37,9 @@
             <h2>Our Design</h2>
           </div>
           <div class="position-absolute top-50 end-0 mt-3">
-            <button class="button-secondary rounded-pill">More ></button>
+            <router-link to="/gallery">
+              <button class="button-secondary rounded-pill">More ></button>
+            </router-link>
           </div>
       </div>
     </div>

@@ -4,6 +4,7 @@ import RegisterView from '../views/RegisterView.vue'
 import PricingView from '../views/PricingView.vue'
 import ContactView from '../views/ContactView.vue'
 import AboutView from '../views/AboutView.vue'
+import GalleryView from '../views/GalleryView.vue'
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: '/about',
     name: 'About',
     component: AboutView
+  },
+  {
+    path: '/gallery',
+    name: 'Gallery',
+    component: GalleryView
   }
 ]
 

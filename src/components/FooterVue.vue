@@ -10,6 +10,7 @@
             <div class="link col-md-5 d-flex justify-content-evenly">
                 <router-link to="/">Home</router-link>
                 <router-link to="/pricing">Pricing</router-link>
+                <router-link to="/gallery">Gallery</router-link>
                 <router-link to="/contact">Contact</router-link>
                 <router-link to="/about">About</router-link>
             </div>
