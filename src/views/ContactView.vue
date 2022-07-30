@@ -1,6 +1,7 @@
 <template>
-
-    <ContactVue/>
+    <div class="contactpage">
+        <ContactVue/>
+    </div>
 
 </template>
 
@@ -18,3 +19,10 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+    .contactpage {
+        margin-top: 50px;
+        min-height: auto;
+    }
+</style>
