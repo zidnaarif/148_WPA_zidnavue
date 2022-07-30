@@ -1,5 +1,4 @@
 <template>
-    <NavbarVue/>
 
   <section id="pricing">
     <div class="container">
@@ -32,13 +31,10 @@
 
     </div>
   </section>
-
-    <FooterVue/>    
+  
 </template>
 
 <script>
-import NavbarVue from '@/components/NavbarVue.vue'
-import FooterVue from '@/components/FooterVue.vue'
 import CardPrice from '@/components/CardPrice.vue'
 
 export default {
@@ -48,9 +44,7 @@ export default {
       document.title = "Pricing Plan";
     },
     components: {
-    NavbarVue,
-    FooterVue,
-    CardPrice
+      CardPrice
   }
 }
 </script>

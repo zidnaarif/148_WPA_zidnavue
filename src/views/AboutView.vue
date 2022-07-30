@@ -1,7 +1,5 @@
 <template>
 
-  <NavbarVue/>
-
   <section id="about" class="overflow-hidden">
     <div class="container">
       <div class="container-fluid about mt-5 mb-5 text-center">
@@ -72,13 +70,9 @@
     </div>
   </section>
 
-  <FooterVue/>
-
 </template>
 
 <script>
-import NavbarVue from '@/components/NavbarVue.vue'
-import FooterVue from '@/components/FooterVue.vue'
 import CardTeam from '@/components/CardTeam.vue'
 
 export default {
@@ -88,8 +82,6 @@ export default {
       document.title = "About us";
     },
     components: {
-    NavbarVue,
-    FooterVue,
     CardTeam
   }
 }

@@ -1,7 +1,5 @@
 <template>
 
-    <NavbarVue/>
-
     <section id="register">
     <div class="container-fluid overlay">
         <div class="container">
@@ -44,13 +42,9 @@
     </div>
     </section>
 
-    <FooterVue/>
-
 </template>
 
 <script>
-import NavbarVue from '@/components/NavbarVue.vue'
-import FooterVue from '@/components/FooterVue.vue'
 
 export default {
     setup() {
@@ -58,9 +52,5 @@ export default {
     mounted() {
         document.title = "Register";
     },
-    components: { 
-        NavbarVue,
-        FooterVue
-    }
 }
 </script>

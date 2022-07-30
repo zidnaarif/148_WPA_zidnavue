@@ -1,19 +1,13 @@
 <template>
 
-    <NavbarVue/>
-
     <div id="galleryview">
         <GalleryVue/>
     </div>
 
-    <FooterVue/>
-
 </template>
 
 <script>
-import NavbarVue from '../components/NavbarVue.vue';
-import FooterVue from '../components/FooterVue.vue';
-import GalleryVue from '../components/GalleryVue.vue';
+import GalleryVue from '@/components/GalleryVue.vue';
 
 export default {
     data() {
@@ -23,9 +17,7 @@ export default {
     },
 
     components: {
-    NavbarVue,
-    GalleryVue,
-    FooterVue
-}
+        GalleryVue
+    }
 }
 </script>

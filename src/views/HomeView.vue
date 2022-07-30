@@ -1,5 +1,5 @@
 <template>
-  <NavbarVue/>
+
   <HeroVue/>
 
   <section id="service">
@@ -81,19 +81,17 @@
   </section>
 
   <ContactVue/>
-  <FooterVue/>
+  
 </template>
 
 <script>
 // @ is an alias to /src
-import NavbarVue from '../components/NavbarVue.vue'
-import HeroVue from '../components/HeroVue.vue'
-import ServiceVue from '../components/ServiceVue.vue'
-import SearchVue from '../components/SearchVue.vue'
-import FooterVue from '../components/FooterVue.vue'
-import ContactVue from '../components/ContactVue.vue'
-import CardDesign from '../components/CardDesign.vue'
-import ReviewVue from '../components/ReviewVue.vue'
+import HeroVue from '@/components/HeroVue.vue'
+import ServiceVue from '@/components/ServiceVue.vue'
+import SearchVue from '@/components/SearchVue.vue'
+import ContactVue from '@/components/ContactVue.vue'
+import CardDesign from '@/components/CardDesign.vue'
+import ReviewVue from '@/components/ReviewVue.vue'
 
 export default {
   name: 'HomeView',
@@ -106,11 +104,9 @@ export default {
     document.title = "Dekoruma";
   },
   components: {
-    NavbarVue,
     HeroVue,
     ServiceVue,
     SearchVue,
-    FooterVue,
     ContactVue,
     CardDesign,
     ReviewVue
