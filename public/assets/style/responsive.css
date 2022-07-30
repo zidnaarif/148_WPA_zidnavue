@@ -547,6 +547,10 @@
       footer .link {
         visibility: hidden;
       }
+
+      footer .logo {
+        visibility: hidden;
+      }
       
       .copyright {
         bottom: 0%;

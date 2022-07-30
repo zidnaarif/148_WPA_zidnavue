@@ -3,7 +3,7 @@
         <div class="container-fluid">
         <div class="container">
             <div class="row">
-            <div class="col-md-7 d-flex align-items-center">
+            <div class="col-md-7 logo d-flex align-items-center">
                 <img src="/assets/img/realestate-logo.png" alt="">
                 <a href="#" class="ms-2"><h5>Dekoruma</h5></a>
             </div>
@@ -15,7 +15,7 @@
                 <router-link to="/about">About</router-link>
             </div>
             </div>
-            <div class="row position-absolute copyright start-50 translate-middle">
+            <div class="row position-absolute copyright start-50 translate-middle text-center">
             <p>Copyright &copy;Dekoruma All Right Reserved.</p>
             </div>
         </div>
